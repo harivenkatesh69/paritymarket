@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body> 
+    <section id="header">
+        <div class="container">
+             <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>OFFICIAL AVENGERS GAMBLING</h1>
+                <span class ="square"></span>
+                <P>Register now to get 100% bonus on your first deposit</P>
+                
+                <button class="common-btn">know more</button>
+                 
+            </div>        
+                    
+    </div>
+    
+    <nav id="sidenav">
+    <ul>
+       
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">WALLET</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+         <a href="about.html"></a>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">HELP</a></li>
+        <li><a href="index.html">LOGOUT</a></li>
+        <a href="index.html"></a>
+        </ul>
+    </nav>
+    <img src="images/icons8-menu-50.png" id="menubtn">
+       
+       <ul1>
+           <li>
+               <a href="#">
+                   <div class="icon">
+                   <i class="fa fa-home" aria-hidden="true"></i>
+                       </div>
+                   <div class="name" data-text="Home">HOME</div>
+               </a>
+           </li>
+    
+    </ul1>
+    <ul1>
+           <li>
+               <a href="#">
+                   <div class="icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                   </div>
+                   <div class="name" data-text="Shop">SHOP</div>
+               </a>
+           </li>
+    
+    </ul1>
+    <ul1>
+           <li>
+               <a href="#">
+                   <div class="icon">
+                       <i class="fa fa-gamepad" aria-hidden="true"></i>
+                   </div>
+                   <div class="name" data-text="Play">PLAY</div>
+               </a>
+           </li>
+    
+    </ul1>
+        <ul1>
+           <li>
+               <a href="#">
+                   <div class="icon">
+                       <i class="fa fa-user" aria-hidden="true"></i>
+                   </div>
+                   <div class="name" data-text="Profile">PROFILE</div>
+               </a>
+           </li>
+    
+    </ul1>
+    
+    </section>
+    
+    
+    <script>
+    var menubtn = document.getElementById("menubtn");
+    var sidenav = document.getElementById("sidenav");
+        
+    sidenav.style.right ="-250px";
+    menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right ="0";
+        
+        }
+        else{
+            sidenav.style.right = "-250px";
+            
+        }
+    }
+        
+        
+    </script>
+</body>
+</html>

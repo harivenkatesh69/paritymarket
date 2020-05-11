@@ -1,0 +1,919 @@
+.time {
+    display: inline-flex;
+}
+span.time-sub {
+    margin: 0 2px;
+    padding: 0px 4px;
+    font-size: 24px;
+    background: #f2f2f2;
+    color: #0f1223;
+    border-radius: 5px;
+}
+span.time-sub-dot {
+    padding: 0px 3px;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+
+.parity-content .kline[data-v-45203edc] {
+    padding: 15px 12px 0;
+}
+.parity-content .kline .top-selete[data-v-45203edc] {
+        display: flex;
+        margin-bottom: 15px;
+}
+.parity-content .kline .top-selete-sub[data-v-45203edc] {
+        flex: 1;
+        line-height: 30px;
+        color: #999999;
+        border-bottom: 2px solid #cbcbcb;
+        text-align: center;
+        font-size: 16px;
+}
+.parity-content .kline .top-selete-sub.active[data-v-45203edc] {
+            font-size: 16px;
+            color: #157239;
+            border-bottom: 2px solid #157239;
+}
+.parity-content .kline .box[data-v-45203edc] {
+        overflow: scroll;
+        display: inline-grid;
+        width: 100%;
+        max-height: 400px;
+        padding-bottom: 20px;
+        line-height: 40px;
+}
+.parity-content .kline .box .row[data-v-45203edc] {
+            display: inline-flex;
+}
+.parity-content .kline .box .row .index[data-v-45203edc] {
+                /*border: 1px solid;*/
+                width: 40px;
+                text-align: center;
+}
+.parity-content .kline .box .row .cell[data-v-45203edc] {
+                padding: 10px;
+                /*border: 1px solid #fff;*/
+}
+.parity-content .kline .box .row .cell.border[data-v-45203edc] {
+                    /*border: 1px solid;*/
+}
+.parity-content .kline .box .row .cell .item-null[data-v-45203edc] {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 20px;
+}
+.parity-content .kline .box .row .cell .item-green[data-v-45203edc] {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 20px;
+                    background: #157239;
+}
+.parity-content .kline .box .row .cell .item-red[data-v-45203edc] {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 20px;
+                    background: #F52827;
+}
+.parity-content .kline .box .row .cell .item-violet-red[data-v-45203edc] {
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    background-image: linear-gradient(-90deg, #e839f1 10px, #F52827 0px);
+}
+.parity-content .kline .box .row .cell .item-violet-green[data-v-45203edc] {
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    background-image: linear-gradient(-90deg, #e839f1 10px, #157239 0px);
+}
+.parity-content .kline .title[data-v-45203edc] {
+        display: flex;
+        text-align: center;
+        margin: 10px;
+}
+.parity-content .kline .title .red[data-v-45203edc] {
+            flex: 1;
+            color: #F52827;
+}
+.parity-content .kline .title .green[data-v-45203edc] {
+            flex: 1;
+            color: #157239;
+}
+.parity-content .kline .title .violet[data-v-45203edc] {
+            flex: 1;
+            color: #e839f1;
+}
+.reservation-chunk[data-v-45203edc] {
+    margin-bottom: 10px;
+    display: flex;
+}
+.reservation-chunk-sub[data-v-45203edc] {
+    flex: 1;
+}
+.reservation-chunk-sub-title[data-v-45203edc] {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #7d7d7d;
+}
+.reservation-chunk-sub-num[data-v-45203edc] {
+    font-size: 24px;
+}
+.reservation-chunk-sub-num button[data-v-45203edc] {
+        color: #fff;
+        border: none;
+        background-color: #f0c336;
+        padding: 4px 18px;
+        font-size: 20px;
+}
+
+
+.container[data-v-704817a1] {
+    font-size: 13px;
+}
+.header[data-v-704817a1] {
+    height: 30px;
+    margin: 6px 24px 0;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__noe[data-v-704817a1] {
+    display: flex;
+}
+.header__child[data-v-704817a1] {
+    display: flex;
+    justify-content: flex-end;
+}
+.content[data-v-704817a1] {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 24px;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+}
+.content .content__aliquot[data-v-704817a1] {
+        color: #ea3af0;
+}
+.content .conten__aneven[data-v-704817a1] {
+        color: #f52926
+}
+.content .content__anodd[data-v-704817a1] {
+        color: #1eb83f
+}
+.point .point-box[data-v-704817a1] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point .point-box .point-box__anodd[data-v-704817a1] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #1eb83f;
+}
+.point .point-box .point-box__aneven[data-v-704817a1] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #f52926;
+}
+.point .point-box .point-box__aliquot[data-v-704817a1] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: blueviolet;
+        margin-left: 5px
+}
+.point .point-box .point-box__add[data-v-704817a1] {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px
+}
+
+
+.top-selete[data-v-e60db42a] {
+    display: flex;
+    margin: 30px 10px 0;
+    border: 1px solid #137139;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.top-selete-sub[data-v-e60db42a] {
+    flex: 1;
+    /*padding: 0.28rem 0;*/
+    text-align: center;
+    font-size: 14px;
+}
+.top-selete-sub.active[data-v-e60db42a] {
+        font-size: 14px;
+        color: #fff;
+        background-color: #137139;
+}
+.reservation-chunk[data-v-e60db42a] {
+    display: flex;
+    padding: 15px 10px;
+}
+.reservation-chunk-sub[data-v-e60db42a] {
+    flex: 1;
+    text-align: center;
+}
+.reservation-chunk-sub-title[data-v-e60db42a] {
+    padding: 10px 0;
+    font-size: 13px;
+    color: #7d7d7d;
+}
+.reservation-chunk-sub-num[data-v-e60db42a] {
+    font-size: 16px;
+}
+
+/*.reservation-booking {
+    background-color: #fff;
+    margin-bottom: 20px;
+}*/
+
+/*.booking-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #13347b;
+    border-bottom: 1px solid #eeeeee;
+}*/
+
+/*.booking-title-no {
+    font-size: 14px;
+    font-weight: bold;
+    color: #151515;
+}
+
+    .booking-title-no span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #7d7d7d;
+    }*/
+.booking-info[data-v-e60db42a] {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+.booking-info-img[data-v-e60db42a] {
+    display: block;
+    /*width: 3.5rem;*/
+}
+.booking-info-img img[data-v-e60db42a] {
+        width: 100%;
+        height: 100%;
+}
+.booking-info-detail[data-v-e60db42a] {
+    /*padding: 0 0.2rem;*/
+}
+.booking-info-title[data-v-e60db42a] {
+    /*font-size: 0.45rem;*/
+    font-weight: bold;
+}
+.booking-info-quantity[data-v-e60db42a] {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    /*font-size: 0.35rem;*/
+}
+.booking-info-quantity span[data-v-e60db42a] {
+        display: block;
+        font-weight: 600;
+}
+.booking-info-text[data-v-e60db42a] {
+    /*font-size: 0.35rem;*/
+    padding: 2px 0;
+}
+.booking-info-view[data-v-e60db42a] {
+    /*font-size: 0.35rem;*/
+    color: #b52626;
+    text-decoration: underline
+}
+.booking-bottom[data-v-e60db42a] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem;
+}
+.booking-bottom-text[data-v-e60db42a] {
+    /*font-size: 0.35rem;*/
+}
+.booking-bottom-text span[data-v-e60db42a] {
+        display: block;
+        /*font-size: 0.35rem;*/
+        color: #828282;
+}
+.booking-bottom-btn[data-v-e60db42a] {
+    display: flex;
+}
+.booking-bottom-btn-sub[data-v-e60db42a] {
+    /*min-width: 2rem;
+    padding: .18rem 0.25rem;
+    margin: 0 0.1rem;
+    font-size: 0.35rem;*/
+    font-weight: 600;
+    background-color: #f2f2f2;
+    border: 0;
+    /*border-radius: 0.35rem;*/
+    display: inline-block;
+}
+.colorg[data-v-e60db42a] {
+    color: rgb(34, 154, 23);
+}
+.colorr[data-v-e60db42a] {
+    color: #B52626;
+}
+
+
+.order-content .flex-box {
+    display: flex;
+}
+.order-content .flex-box > .auto {
+        flex-grow: 1;
+        padding-left: 12px;
+}
+.order-content .flex-box > b {
+        /*padding-right:.4rem;*/
+        /*padding-left: 0.35rem;*/
+        width: 50%;
+}
+.order-content .order-box {
+    border-bottom: 1px solid #F0F0F0;
+    margin: 14px;
+    padding-bottom: 5px;
+    color: #707070;
+    font-size: 13px;
+}
+.order-content .order-box .end-time {
+        border-top: 1px solid #eee;
+        font-size: 10px;
+        color: #707070;
+        display: block;
+        text-align: right;
+        padding: 5px 0 0;
+        margin-top: 5px;
+}
+.order-content .order-box .top {
+        font-size: 13px;
+        position: relative;
+        color: #000;
+}
+.order-content .order-box .top em {
+            font-size: 13px;
+}
+.order-content .order-box .top .money {
+            font-size: 13px;
+            margin-left: 10px;
+            line-height: 20px;
+}
+.order-content .order-box .top .time {
+            font-size: 10px;
+            position: relative;
+            top: -25px;
+            color: #707070;
+            display: block;
+            text-align: right;
+}
+.order-content .order-box .other {
+        display: flex;
+}
+.order-content .order-box .other .left {
+            width: 50%;
+}
+.order-content .order-box .other .right {
+            width: 50%;
+}
+.order-content .order-box .other .item {
+            display: flex;
+            margin-top: 5px;
+}
+.order-content .order-box .other .item span {
+                /*margin-left: 0.2rem;*/
+}
+.order-content .icon {
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+}
+.color1 {
+    background-color: #fdb58e;
+}
+.color2 {
+    background-color: #7FBAFE;
+}
+.color3 {
+    background-color: #FDAFBF;
+}
+.color4 {
+    background-color: #F52727;
+}
+
+
+.top-selete[data-v-74a8ddbc] {
+    display: flex;
+    margin: 30px 10px 0;
+    border: 1px solid #137139;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.top-selete-sub[data-v-74a8ddbc] {
+    flex: 1;
+    /*padding: 0.28rem 0;*/
+    text-align: center;
+    font-size: 14px;
+}
+.top-selete-sub.active[data-v-74a8ddbc] {
+        font-size: 14px;
+        color: #fff;
+        background-color: #137139;
+}
+.reservation-chunk[data-v-74a8ddbc] {
+    display: flex;
+    padding: 15px 10px 5px;
+}
+.reservation-chunk-sub[data-v-74a8ddbc] {
+    flex: 1;
+    text-align: center;
+}
+.reservation-chunk-sub-title[data-v-74a8ddbc] {
+    padding: 10px 0;
+    font-size: 13px;
+    color: #7d7d7d;
+}
+.reservation-chunk-sub-num[data-v-74a8ddbc] {
+    font-size: 16px;
+}
+
+/*.reservation-booking {
+    background-color: #fff;
+    margin-bottom: 20px;
+}*/
+
+/*.booking-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #13347b;
+    border-bottom: 1px solid #eeeeee;
+}*/
+
+/*.booking-title-no {
+    font-size: 14px;
+    font-weight: bold;
+    color: #151515;
+}
+
+    .booking-title-no span {
+        font-size: 14px;
+        font-weight: 500;
+        color: #7d7d7d;
+    }*/
+.booking-info[data-v-74a8ddbc] {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+.booking-info-img[data-v-74a8ddbc] {
+    display: block;
+    /*width: 3.5rem;*/
+}
+.booking-info-img img[data-v-74a8ddbc] {
+        width: 100%;
+        height: 100%;
+}
+.booking-info-detail[data-v-74a8ddbc] {
+    /*padding: 0 0.2rem;*/
+}
+.booking-info-title[data-v-74a8ddbc] {
+    /*font-size: 0.45rem;*/
+    font-weight: bold;
+}
+.booking-info-quantity[data-v-74a8ddbc] {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    /*font-size: 0.35rem;*/
+}
+.booking-info-quantity span[data-v-74a8ddbc] {
+        display: block;
+        font-weight: 600;
+}
+.booking-info-text[data-v-74a8ddbc] {
+    /*font-size: 0.35rem;*/
+    padding: 2px 0;
+}
+.booking-info-view[data-v-74a8ddbc] {
+    /*font-size: 0.35rem;*/
+    color: #b52626;
+    text-decoration: underline
+}
+.booking-bottom[data-v-74a8ddbc] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem;
+}
+.booking-bottom-text[data-v-74a8ddbc] {
+    /*font-size: 0.35rem;*/
+}
+.booking-bottom-text span[data-v-74a8ddbc] {
+        display: block;
+        /*font-size: 0.35rem;*/
+        color: #828282;
+}
+.booking-bottom-btn[data-v-74a8ddbc] {
+    display: flex;
+}
+.booking-bottom-btn-sub[data-v-74a8ddbc] {
+    /*min-width: 2rem;
+    padding: .18rem 0.25rem;
+    margin: 0 0.1rem;
+    font-size: 0.35rem;*/
+    font-weight: 600;
+    background-color: #f2f2f2;
+    border: 0;
+    /*border-radius: 0.35rem;*/
+    display: inline-block;
+}
+.colorg[data-v-74a8ddbc] {
+    color: rgb(34, 154, 23);
+}
+.colorr[data-v-74a8ddbc] {
+    color: #B52626;
+}
+
+
+.transcation-content[data-v-01280082] {
+    /*margin:0 12px;*/
+}
+.transcation-content .my[data-v-01280082] {
+        background: url(/assets/images/transction-bgimg.png?c7d7843b3e20c7ae9437f233ca0213cc)no-repeat;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        color: #fefefe;
+        font-size: 16px;
+}
+.transcation-content .my .top[data-v-01280082] {
+            display: flex;
+            padding: 33px 12px 0;
+}
+.transcation-content .my .top .left[data-v-01280082] {
+                width: 60%;
+}
+.transcation-content .my .top .left em[data-v-01280082] {
+                    padding-right: 10px;
+}
+.transcation-content .my .top .left span[data-v-01280082] {
+                    font-size: 19px;
+}
+.transcation-content .my .top .right[data-v-01280082] {
+                width: 40%;
+}
+.transcation-content .my .top .right button[data-v-01280082] {
+                    background-color: #FFF;
+                    color: #000;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 4px;
+                    font-size: 14px;
+                    position: relative;
+                    top: 1%;
+                    left: 33%;
+}
+.transcation-content .my .bottom[data-v-01280082] {
+            padding: 15px;
+            margin-top: -2%;
+            font-size: 18px;
+}
+.transcation-content .my .bottom span[data-v-01280082] {
+                font-size: 13px;
+}
+.transcation-content .my .bottom .rule[data-v-01280082] {
+                float: right;
+                border-radius: 5px;
+                background: transparent;
+                color: white;
+}
+.transcation-content .kline[data-v-01280082] {
+        padding: 15px 12px 0;
+}
+.transcation-content .kline .top-selete[data-v-01280082] {
+            display: flex;
+            margin-bottom: 15px;
+}
+.transcation-content .kline .top-selete-sub[data-v-01280082] {
+            flex: 1;
+            line-height: 30px;
+            color: #999999;
+            border-bottom: 2px solid #cbcbcb;
+            text-align: center;
+            font-size: 16px;
+}
+.transcation-content .kline .top-selete-sub.active[data-v-01280082] {
+                font-size: 16px;
+                color: #157239;
+                border-bottom: 2px solid #157239;
+}
+.transcation-content .kline .buttonBox[data-v-01280082] {
+            display: flex;
+}
+.transcation-content .kline .buttonBox .sell[data-v-01280082] {
+                flex: 1;
+                text-align: center;
+}
+.transcation-content .kline .buttonBox .sell button[data-v-01280082] {
+                    border: none;
+                    background-color: #f52828;
+                    width: 90%;
+                    height: 37px;
+                    color: #fefefe;
+                    font-size: 16px;
+                    position: relative;
+                    margin-top: 10px;
+}
+.transcation-content .kline .buttonBox .sell button[data-v-01280082]:disabled {
+                        background-color: #dbdbdb;
+}
+.transcation-content .kline .buttonBox .violet[data-v-01280082] {
+                flex: 1;
+                text-align: center;
+}
+.transcation-content .kline .buttonBox .violet button[data-v-01280082] {
+                    border: none;
+                    background-color: #ea3af0;
+                    width: 90%;
+                    height: 37px;
+                    color: #fefefe;
+                    font-size: 16px;
+                    position: relative;
+                    margin-top: 10px;
+}
+.transcation-content .kline .buttonBox .violet button[data-v-01280082]:disabled {
+                        background-color: #dbdbdb;
+}
+.transcation-content .kline .buttonBox .number[data-v-01280082] {
+                flex: 1;
+                text-align: center;
+}
+.transcation-content .kline .buttonBox .number button[data-v-01280082] {
+                    border: none;
+                    background-color: #007acc;
+                    width: 80%;
+                    height: 30px;
+                    color: #fefefe;
+                    font-size: 20px;
+                    position: relative;
+                    margin-top: 10px;
+}
+.transcation-content .kline .buttonBox .number button[data-v-01280082]:disabled {
+                        background-color: #dbdbdb;
+}
+.thick-box[data-v-01280082] {
+    margin-top: 15px;
+    width: 100%;
+    height: 10px;
+    background-color: #f6f6f6;
+}
+.transcation-content .kline .buttonBox .order[data-v-01280082] {
+    flex: 1;
+    text-align: center;
+}
+.transcation-content .kline .buttonBox .order button[data-v-01280082] {
+        border: none;
+        background-color: #1eb93d;
+        width: 90%;
+        height: 37px;
+        color: #fefefe;
+        font-size: 16px;
+        position: relative;
+        margin-top: 10px;
+}
+.transcation-content .kline .buttonBox .order button[data-v-01280082]:disabled {
+            background-color: #dbdbdb;
+}
+.transcation-content .orders .title[data-v-01280082] {
+    color: #137139;
+    display: block;
+    position: relative;
+    margin: 15px 14px 0;
+    padding: 5px 0;
+    /*font-size: 14px;*/
+}
+.transcation-content .orders .title[data-v-01280082]::after {
+        display: block;
+        background-color: #137139;
+        content: ' ';
+        left: -15px;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        position: absolute;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+}
+.transcation-content .tranBox[data-v-01280082] {
+    height: 350px;
+}
+.transcation-content .tranBox .top[data-v-01280082] {
+        height: 47px;
+        border-bottom: 1px solid #ececec;
+}
+.transcation-content .tranBox .top .box-pre-order[data-v-01280082] {
+            display: inline-block;
+            position: relative;
+            padding: 5px;
+            height: 45px;
+            background-color: #04ab02;
+            color: #FFF;
+            font-size: 22px;
+            line-height: 45px;
+}
+.transcation-content .tranBox .top .box-pre-order.sell[data-v-01280082] {
+                background-color: #F52827;
+}
+            /*////////////////////////////////////////////////////////////*/
+.transcation-content .tranBox .top .box-pre-order[data-v-01280082]:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                right: -8px;
+                bottom: 0;
+                border: 4px solid;
+                border-color: rgb(15,148,44) transparent transparent rgb(15,148,44)
+}
+.transcation-content .tranBox .top .box-pre-order.sell[data-v-01280082]:after {
+                border-color: #F52827 transparent transparent #F52827
+}
+.transcation-content .tranBox .top .box-pre-number[data-v-01280082] {
+            display: inline-block;
+            position: relative;
+            padding: 5px;
+            height: 45px;
+            background-color: #007acc;
+            color: #FFF;
+            font-size: 22px;
+            line-height: 45px;
+}
+.transcation-content .tranBox .top .box-pre-number.violet[data-v-01280082] {
+                background-color: #ea3af0;
+}
+            /*////////////////////////////////////////////////////////////*/
+.transcation-content .tranBox .top .box-pre-number[data-v-01280082]:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                right: -8px;
+                bottom: 0;
+                border: 4px solid;
+                border-color: #007acc transparent transparent #007acc;
+}
+.transcation-content .tranBox .top .box-pre-number.violet[data-v-01280082]:after {
+                border-color: #ea3af0 transparent transparent #ea3af0;
+}
+.transcation-content .tranBox .tran[data-v-01280082] {
+        height: 67%;
+        margin-top: 15px;
+}
+.transcation-content .tranBox .tran .item[data-v-01280082] {
+            display: flex;
+            padding: 9px 0;
+            align-items: center;
+            margin: 0 15px;
+            font-size: 16px;
+}
+.transcation-content .tranBox .tran .item div[data-v-01280082] {
+                flex: 1
+}
+.transcation-content .tranBox .tran .Spiitem[data-v-01280082] {
+            display: flex;
+            /*padding: 0.2rem 0;
+            align-items: center;
+            margin: 0 0.5rem;
+            font-size: 0.5rem;*/
+}
+.transcation-content .tranBox .tran .Spiitem div[data-v-01280082] {
+                flex: 1
+}
+.transcation-content .tranBox .tran .Spiitem .spinner[data-v-01280082] {
+                font-size: 16px;
+                color: rgb(200,200,200);
+                flex: 3
+}
+.transcation-content .tranBox .tran .item span[data-v-01280082] {
+            display: block;
+            color: #090909
+}
+.transcation-content .tranBox .tran .item button[data-v-01280082] {
+            border: 1px solid #ECECEC;
+            width: 95%;
+            height: 30px;
+            border-radius: 5px;
+}
+.transcation-content .tranBox .tran .item button.active[data-v-01280082] {
+                color: #fff;
+                background-color: #707070;
+                border: 1px solid #707070;
+}
+.transcation-content .tranBox .bottom[data-v-01280082] {
+        height: 15%;
+        display: flex;
+        font-size: 18px;
+}
+.transcation-content .tranBox .bottom .cancel[data-v-01280082] {
+            background-color: #F2F2F2;
+            border: none;
+            flex: 1;
+}
+.transcation-content .tranBox .bottom .confirm[data-v-01280082] {
+            background-color: #F52827;
+            border: none;
+            flex: 2;
+            color: #FEFEFE;
+}
+.transcation-content .tranBox .bottom .confirm.order[data-v-01280082] {
+                background-color: #04ab02
+}
+.transcation-content .tranBox .bottom .confirmNumber[data-v-01280082] {
+            background-color: #007acc;
+            border: none;
+            flex: 2;
+            color: #FEFEFE;
+}
+.transcation-content .tranBox .bottom .confirmNumber.violet[data-v-01280082] {
+                background-color: #ea3af0
+}
+.title a[data-v-01280082] {
+    text-decoration: none;
+    color: #707070;
+    font-size: 14px;
+    float: right;
+    margin: 0.3952rem auto;
+}
+.top .topGold[data-v-01280082] {
+    color: #707070;
+    /* margin-left: 5.6rem; */
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    font-size: 15px;
+}
+.reservation-chunk[data-v-01280082] {
+    margin-bottom: 10px;
+    display: flex;
+}
+.reservation-chunk-sub[data-v-01280082] {
+    flex: 1;
+}
+.reservation-chunk-sub-title[data-v-01280082] {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #7d7d7d;
+}
+.reservation-chunk-sub-num[data-v-01280082] {
+    font-size: 24px;
+}
+.reservation-chunk-sub-num button[data-v-01280082] {
+        color: #fff;
+        border: none;
+        background-color: #f0c336;
+        padding: 4px 18px;
+        font-size: 20px;
+}
+.policy-layout[data-v-01280082] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.policy-scrollview[data-v-01280082] {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+.policy-layout .policy-scrollview__main[data-v-01280082] {
+    font-size: 12px;
+    padding: 20px 20px 0;
+}
+
